@@ -6,6 +6,8 @@
 ![GitHub stars](https://img.shields.io/github/stars/felipealmeida43/led_class)
 ![GitHub forks](https://img.shields.io/github/forks/felipealmeida43/led_class)
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 ## Project Description
