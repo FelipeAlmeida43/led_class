@@ -1,7 +1,10 @@
 
 # LED CLASS
 
-
+![Build Status](https://github.com/felipealmeida43/led_class/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/github/license/felipealmeida43/led_class)
+![GitHub stars](https://img.shields.io/github/stars/felipealmeida43/led_class)
+![GitHub forks](https://img.shields.io/github/forks/felipealmeida43/led_class)
 
 
 
