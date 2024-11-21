@@ -13,14 +13,21 @@ RGBLED::RGBLED(uint8_t rPin, uint8_t gPin, uint8_t bPin)
 
 // Set the color using RGB values (0-255)
 void RGBLED::setColor(uint8_t redValue, uint8_t greenValue, uint8_t blueValue) {
+    /*
+    digitalWrite(redPin,redValue);
+    digitalWrite(greenPin,greenValue);
+    digitalWrite(bluePin,blueValue);
+    */
+    
     analogWrite(redPin, redValue);   // Set Red channel brightness
     analogWrite(greenPin, greenValue); // Set Green channel brightness
     analogWrite(bluePin, blueValue); // Set Blue channel brightness
+    
 }
 
 // Turn off the RGB LED
 void RGBLED::off() {
-    analogWrite(redPin, 0);
-    analogWrite(greenPin, 0);
-    analogWrite(bluePin, 0);
+    digitalWrite(redPin, 0);
+    digitalWrite(greenPin, 0);
+    digitalWrite(bluePin, 0);
 }
